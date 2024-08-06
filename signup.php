@@ -61,7 +61,7 @@
 </html>
 
 <?php
-include 'con.php';   
+include'connections.php'; 
 if(isset($_POST['signup'])){
    $un=$_POST['un'];
     $pass=$_POST['pass'];

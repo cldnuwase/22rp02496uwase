@@ -57,7 +57,7 @@ function test_input($data) {
     return $data;
 
 }
-include 'con.php';
+include'connections.php';
 if($_SERVER["REQUEST_METHOD"]){
 if(isset($_POST['save'])){
     $fname=$_POST['fn'];

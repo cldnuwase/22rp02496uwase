@@ -55,7 +55,7 @@ function test_input($data) {
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
     return $data;}
-include("con.php");
+    include'connections.php';
 if (isset($_GET['upd'])) {
     $upd = $_GET['upd'];
 

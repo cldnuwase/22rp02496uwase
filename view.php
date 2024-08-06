@@ -28,7 +28,7 @@
 
 <?php
 
-include 'con.php';
+include'connections.php';
 $sq = "SELECT * FROM student_info";
 $res = mysqli_query($con,$sq);
 $num_rows = mysqli_num_rows($res);

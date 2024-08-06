@@ -1,5 +1,5 @@
 <?php
-include'con.php';
+include'connections.php';
 
 if (isset($_GET['del'])) {
    $del=$_GET['del'];
